@@ -1,3 +1,37 @@
 body{
     background-color: #f1f1f1;
 }
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    padding: 15px;
+    background-color: #aeaeae;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 15px;
+    background-color: #aeaeae;
+    border-radius: 10px;
+}
+
+main{
+    padding: 15px;
+}
+
+.sticker{
+    width: 12%;
+    height: 200px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #aeaeae;
+    border-radius: 10px;
+}

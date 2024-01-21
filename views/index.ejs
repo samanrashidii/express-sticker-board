@@ -1,1 +1,17 @@
-<h1>Yo</h1>
+<h1>Sticker Board</h1>
+<ul>
+    <% data.forEach(post => { %>
+        <li>
+            <div
+                class="sticker"
+            >
+                <h2>
+                    <%= post.title %>
+                </h2>
+                <p>
+                    <%= post.body %>
+                </p>
+            </div>    
+        </li>
+    <% }) %>
+</ul>
